@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOTInterpreter", "AOTInterpreter\AOTInterpreter.csproj", "{CA56822C-6771-44FF-A87D-A91A8D7CB530}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA56822C-6771-44FF-A87D-A91A8D7CB530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA56822C-6771-44FF-A87D-A91A8D7CB530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA56822C-6771-44FF-A87D-A91A8D7CB530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA56822C-6771-44FF-A87D-A91A8D7CB530}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
