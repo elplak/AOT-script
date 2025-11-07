@@ -121,7 +121,7 @@ This project explores a fundamental question:
 
 > Can we mix *interpreter simplicity* with *compiler efficiency* in a minimal C# sandbox?
 
-It provides an approachable framework for experimenting with parsing theory, dynamic compilation, and runtime reflection — using only standard .NET libraries.
+It provides an approachable framework for experimenting with parsing theory, dynamic compilation, and runtime reflection, only using standard .NET libraries.
 
 ## Status
 
