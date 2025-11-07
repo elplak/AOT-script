@@ -73,7 +73,8 @@ public class CodeGenerator
             assemblyName,
             [syntaxTree],
             refs,
-            new CSharpCompilationOptions(OutputKind.DynamicallyLinkedLibrary));
+            new CSharpCompilationOptions(OutputKind.DynamicallyLinkedLibrary)
+        );
 
 
         using var ms = new MemoryStream();
@@ -82,7 +83,10 @@ public class CodeGenerator
         if (!result.Success)
         {
             foreach (var diagnostic in result.Diagnostics)
+            {
                 Console.WriteLine(diagnostic);
+            }
+
             return;
         }
 

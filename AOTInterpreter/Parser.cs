@@ -19,7 +19,9 @@ public class Parser(List<Token> tokens)
     {
         var statements = new List<Stmt>();
         while (Current.Type != TokenType.EOF)
+        {
             statements.Add(ParseStatement());
+        }
         return new BlockStmt(statements);
     }
 
